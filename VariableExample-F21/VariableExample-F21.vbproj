@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4064A053-7E56-4E6D-9827-064B0FCC5E10}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>VariableExample_F21.Module1</StartupObject>
+    <StartupObject>VariableExample_F21.VariableExample</StartupObject>
     <RootNamespace>VariableExample_F21</RootNamespace>
     <AssemblyName>VariableExample-F21</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="VariableExample.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
